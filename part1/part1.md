@@ -10,14 +10,12 @@
 10. At line 12, a ReferenceError will be thrown because the constant discountedPrice is declared in the scope of for loop and cannot be referred outside.
 11. At line 13, a TypeError will be thrown because finalPrice is a constant and we cannot reassign its value.
 12. Let's assume the assignment was successful in subsequent questions, if we count the property of constants, the function will return [] because discounted is a constant and we cannot change its value. If we don't count on the property of constants, the function will again return [50, 100, 150], in the function, we first initialize an array discounted and a variable finalPrice. After the for loop, discounted will store the final rounded discounted prices of the items from the input array prices. Since the discount value is 0.5, the discounted prices will be half of their original values.
-13.
-A. student.name
+13. A. student.name
 B. student['Grad Year']
 C. student.greeting();
 D. student['Favorite Teacher'].name
 E. student.courseLoad[0]
-14. 
-A. '3'+2 = '32', 2 is converted to a string and concatenated with '3'.
+14.  A. '3'+2 = '32', 2 is converted to a string and concatenated with '3'.
 B. '3'-2 = 1, '3' is converted to a number and subtract 2 is 1.
 C. 3+null = 3, null is 0, 3+0 = 3.
 D. '3'+null = '3null', null is converted to a string and concatenated with '3'.
@@ -25,15 +23,13 @@ E. true+3 = 4, true is a boolean and is 1 in number, 1+3=4.
 F. false+null = 0, false is 0 in number, null is 0 in number as well.
 G. "3"+undefined = '3undefined', undefined is converted to a string and concatenated with "3".
 H. "3"+undefined = NaN, undefined is NaN and 3 cannot subtract NaN.
-15.
-A. '2' > 1 = true, '2' is converted to 2 and is greater than 1.
+15. A. '2' > 1 = true, '2' is converted to 2 and is greater than 1.
 B. '2' < '12' = false, '2' is greater than '1' in unicode order.
 C. 2 == '2' = true, '2' is converted to 2 and is equal to 2.
 D. 2 === '2' = false because they are not the same type.
 E. true == 2 = false, true = 1 in number which is less than 2.
 F. true === Boolean(2) = true, 2 is not 0, so Boolean(2) = true, and true is same as true.
-16. 
-== performs non-strict equality check with possible type conversion.
+16.  == performs non-strict equality check with possible type conversion.
 === is a strict equality operator that checks the equality without type conversion.
 17. 'How are you?' will be printed out because true is 1 in number so it doesn't equal to 2, we then go to else if, 2 is not 0, so 2 is true in Boolean, so console.log('How are you?'); will be executed.
 18. script is in part1-question18.js
