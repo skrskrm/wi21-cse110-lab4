@@ -40,3 +40,4 @@ F. true === Boolean(2) = true, 2 is not 0, so Boolean(2) = true, and true is sam
 19. The result would be [6, 8, 10]. At callback(num + 2), each number in the input array adds 2. Then in the function the for loop goes through the input array, for each number, it multiplies with 2 and gets pushed to the temp array. Lastly, the temp array that contains all the number with (original number + 2) * 2 is returned.
 20. script is in part1-question20.js
 21. The output of this code should be 1, 4, 3, 2. 
+ 
