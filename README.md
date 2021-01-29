@@ -1,1 +1,2 @@
-# wi21-cse110-lab4
+Name: Mingyang Wang
+Email: m4wang@ucsd.edu
